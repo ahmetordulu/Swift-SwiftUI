@@ -20,22 +20,23 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="UPY-ZJ-KRF">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PBz-Cp-2DH">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="29i-aM-quN">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="140"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 0  " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gC2-i9-XzD" userLabel="0">
                                                 <rect key="frame" x="20" y="0.0" width="350" height="140"/>
                                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="20"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="50"/>
-                                                <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="gC2-i9-XzD" secondAttribute="trailing" constant="20" id="0Go-XK-J7w"/>
-                                            <constraint firstAttribute="bottom" secondItem="gC2-i9-XzD" secondAttribute="bottom" id="AGI-gH-Q1N"/>
-                                            <constraint firstItem="gC2-i9-XzD" firstAttribute="leading" secondItem="PBz-Cp-2DH" secondAttribute="leading" constant="20" id="gr4-uy-AtT"/>
-                                            <constraint firstItem="gC2-i9-XzD" firstAttribute="top" secondItem="PBz-Cp-2DH" secondAttribute="top" id="qK6-38-4fR"/>
+                                            <constraint firstItem="gC2-i9-XzD" firstAttribute="top" secondItem="29i-aM-quN" secondAttribute="top" id="ASz-J5-NEI"/>
+                                            <constraint firstAttribute="bottom" secondItem="gC2-i9-XzD" secondAttribute="bottom" id="KmF-FD-Awi"/>
+                                            <constraint firstAttribute="trailing" secondItem="gC2-i9-XzD" secondAttribute="trailing" constant="20" id="a19-Ds-67k"/>
+                                            <constraint firstItem="gC2-i9-XzD" firstAttribute="leading" secondItem="29i-aM-quN" secondAttribute="leading" constant="20" id="aWN-wZ-urm"/>
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="KCh-wl-tpw">
@@ -239,8 +240,8 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="tertiarySystemGroupedBackgroundColor">
-            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
