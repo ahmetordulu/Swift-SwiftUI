@@ -3,7 +3,7 @@ import UIKit
 
  
 // camelCase
-
+ 
 var studentName = "Ahmet"
 print(studentName)
 var studentSurname  = "Ordulu"
@@ -38,3 +38,23 @@ let numbery: Double = 2.0
 
 var myBoolean: Bool = false
 myBoolean = true
+
+// ---------------
+
+var myValue : Int = 34
+let myValue2 : String = "i love swift "
+
+let myValue3 : Double = Double(4)
+
+print(myValue3)
+ 
+let valuem : String = String(10)
+
+// Define
+let hi : String
+
+// initialization
+
+hi = "pop"
+let x = hi.uppercased()
+print(x)
