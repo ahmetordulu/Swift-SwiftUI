@@ -52,6 +52,7 @@ let valuem : String = String(10)
 
 // Define
 let hi : String
+var crazy : Double
 
 // initialization
 
