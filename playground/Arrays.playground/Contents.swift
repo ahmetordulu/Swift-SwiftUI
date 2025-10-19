@@ -54,6 +54,26 @@ var resultSet = set1.union(set2)
 print(resultSet)
 
 
-//Dictionary key-value
+//Dictionary key-value pairing
+
+
+var myFavoriteDirectors = [
+    "Quentin Tarantino" : "Scarry woman",
+    "Christopher Nolan" : "Woaahh!",
+    
+]
+
+myFavoriteDirectors["Quentin Tarantino"] = "hi"
+myFavoriteDirectors["Quentin Tarantino"]
+
+
+myFavoriteDirectors["Stanley Kubrick"] = "2001: A Space Odyssey"
+
+
+myFavoriteDirectors
+
+
+var myExampleDictionary : Dictionary = [1: "Run", 2: "Stop" , 3 : "Go"]
+
 
 
