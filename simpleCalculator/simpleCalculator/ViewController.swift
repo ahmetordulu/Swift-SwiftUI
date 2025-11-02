@@ -8,7 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var gResult = 0
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -16,22 +18,73 @@ class ViewController: UIViewController {
 
    
     @IBOutlet weak var firstTextField: UITextField!
-    
-    //6:13
-  
     @IBOutlet weak var secondTextFiedl: UITextField!
-    
-    
+    @IBOutlet weak var resultLabel: UILabel!
     @IBAction func sumClicked(_ sender: Any) {
-        print(firstTextField.text!)
+         
+        if let firstNumber = Int(firstTextField.text ?? "0") {
+            if let secondNumber = Int(secondTextFiedl.text ?? "0"){
+                gResult = firstNumber + secondNumber
+                resultLabel.text = String(gResult)
+                    
+            }else{
+                print("Check textfield 2")
+            }
+         
+        }else{
+           print("Check textfield 1")
+        }
+
+        
+  
+        
     }
+   
+    
     @IBAction func minusClicked(_ sender: Any) {
+        
+        if let firstNumber = Int(firstTextField.text ?? "0") {
+            if let secondNumber = Int(secondTextFiedl.text ?? "0"){
+                gResult = firstNumber - secondNumber
+                resultLabel.text = String(gResult)
+                    
+            }else{
+                print("Check textfield 2")
+            }
+         
+        }else{
+           print("Check textfield 1")
+        }
     }
     @IBAction func multiplyClicked(_ sender: Any) {
+        if let firstNumber = Int(firstTextField.text ?? "0") {
+            if let secondNumber = Int(secondTextFiedl.text ?? "0"){
+                gResult = firstNumber * secondNumber
+                resultLabel.text = String(gResult)
+                    
+            }else{
+                print("Check textfield 2")
+            }
+         
+        }else{
+           print("Check textfield 1")
+        }
     }
     @IBAction func divideClicked(_ sender: Any) {
+        if let firstNumber = Int(firstTextField.text ?? "0") {
+            if let secondNumber = Int(secondTextFiedl.text ?? "0"){
+                gResult = firstNumber / secondNumber
+                resultLabel.text = String(gResult)
+                    
+            }else{
+                print("Check textfield 2")
+            }
+         
+        }else{
+           print("Check textfield 1")
+        }
     }
-    @IBOutlet weak var resultLabel: UILabel!
+  
      
 }
 
