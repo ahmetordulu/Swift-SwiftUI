@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  problemApp
+//  ProjectLayout
 //
 //  Created by Ahmet Rıdvan Ordulu on 11/6/25.
 //
