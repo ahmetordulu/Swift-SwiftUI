@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     
     @IBAction func touched(_ sender: UIButton) {
         ahmetImage.image =  UIImage(named: "IMac_Early_2021")
+        
     }
     
 }
