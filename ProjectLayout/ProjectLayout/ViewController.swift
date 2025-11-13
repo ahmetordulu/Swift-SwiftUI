@@ -12,8 +12,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        for x in 1...5{
+            print(x)
+        }
+        
+        for x in 1..<4{
+            
+        }
     }
-
+    
+   
 
 }
 
