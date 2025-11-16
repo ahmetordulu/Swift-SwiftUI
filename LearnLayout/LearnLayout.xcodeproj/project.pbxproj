@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		A34915F82EBD2C33008EF5E5 /* ProjectLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36BFDE82ECA60C000D11A7C /* LearnLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		A349160A2EBD2C34008EF5E5 /* Exceptions for "ProjectLayout" folder in "ProjectLayout" target */ = {
+		A36BFDFA2ECA60C000D11A7C /* Exceptions for "LearnLayout" folder in "LearnLayout" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = A34915F72EBD2C33008EF5E5 /* ProjectLayout */;
+			target = A36BFDE72ECA60C000D11A7C /* LearnLayout */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A34915FA2EBD2C33008EF5E5 /* ProjectLayout */ = {
+		A36BFDEA2ECA60C000D11A7C /* LearnLayout */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				A349160A2EBD2C34008EF5E5 /* Exceptions for "ProjectLayout" folder in "ProjectLayout" target */,
+				A36BFDFA2ECA60C000D11A7C /* Exceptions for "LearnLayout" folder in "LearnLayout" target */,
 			);
-			path = ProjectLayout;
+			path = LearnLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A34915F52EBD2C33008EF5E5 /* Frameworks */ = {
+		A36BFDE52ECA60C000D11A7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A34915EF2EBD2C33008EF5E5 = {
+		A36BFDDF2ECA60C000D11A7C = {
 			isa = PBXGroup;
 			children = (
-				A34915FA2EBD2C33008EF5E5 /* ProjectLayout */,
-				A34915F92EBD2C33008EF5E5 /* Products */,
+				A36BFDEA2ECA60C000D11A7C /* LearnLayout */,
+				A36BFDE92ECA60C000D11A7C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A34915F92EBD2C33008EF5E5 /* Products */ = {
+		A36BFDE92ECA60C000D11A7C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A34915F82EBD2C33008EF5E5 /* ProjectLayout.app */,
+				A36BFDE82ECA60C000D11A7C /* LearnLayout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A34915F72EBD2C33008EF5E5 /* ProjectLayout */ = {
+		A36BFDE72ECA60C000D11A7C /* LearnLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A349160B2EBD2C34008EF5E5 /* Build configuration list for PBXNativeTarget "ProjectLayout" */;
+			buildConfigurationList = A36BFDFB2ECA60C000D11A7C /* Build configuration list for PBXNativeTarget "LearnLayout" */;
 			buildPhases = (
-				A34915F42EBD2C33008EF5E5 /* Sources */,
-				A34915F52EBD2C33008EF5E5 /* Frameworks */,
-				A34915F62EBD2C33008EF5E5 /* Resources */,
+				A36BFDE42ECA60C000D11A7C /* Sources */,
+				A36BFDE52ECA60C000D11A7C /* Frameworks */,
+				A36BFDE62ECA60C000D11A7C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A34915FA2EBD2C33008EF5E5 /* ProjectLayout */,
+				A36BFDEA2ECA60C000D11A7C /* LearnLayout */,
 			);
-			name = ProjectLayout;
+			name = LearnLayout;
 			packageProductDependencies = (
 			);
-			productName = ProjectLayout;
-			productReference = A34915F82EBD2C33008EF5E5 /* ProjectLayout.app */;
+			productName = LearnLayout;
+			productReference = A36BFDE82ECA60C000D11A7C /* LearnLayout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A34915F02EBD2C33008EF5E5 /* Project object */ = {
+		A36BFDE02ECA60C000D11A7C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2610;
 				LastUpgradeCheck = 2610;
 				TargetAttributes = {
-					A34915F72EBD2C33008EF5E5 = {
-						CreatedOnToolsVersion = 26.1;
+					A36BFDE72ECA60C000D11A7C = {
+						CreatedOnToolsVersion = 26.1.1;
 					};
 				};
 			};
-			buildConfigurationList = A34915F32EBD2C33008EF5E5 /* Build configuration list for PBXProject "ProjectLayout" */;
+			buildConfigurationList = A36BFDE32ECA60C000D11A7C /* Build configuration list for PBXProject "LearnLayout" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = A34915EF2EBD2C33008EF5E5;
+			mainGroup = A36BFDDF2ECA60C000D11A7C;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = A34915F92EBD2C33008EF5E5 /* Products */;
+			productRefGroup = A36BFDE92ECA60C000D11A7C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A34915F72EBD2C33008EF5E5 /* ProjectLayout */,
+				A36BFDE72ECA60C000D11A7C /* LearnLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A34915F62EBD2C33008EF5E5 /* Resources */ = {
+		A36BFDE62ECA60C000D11A7C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A34915F42EBD2C33008EF5E5 /* Sources */ = {
+		A36BFDE42ECA60C000D11A7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,27 +138,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A349160C2EBD2C34008EF5E5 /* Debug */ = {
+		A36BFDFC2ECA60C000D11A7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6B4PJ75TM4;
+				DEVELOPMENT_TEAM = 77M6GLW2T3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ProjectLayout/Info.plist;
+				INFOPLIST_FILE = LearnLayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nothing.ProjectLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hi.LearnLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -170,27 +170,27 @@
 			};
 			name = Debug;
 		};
-		A349160D2EBD2C34008EF5E5 /* Release */ = {
+		A36BFDFD2ECA60C000D11A7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6B4PJ75TM4;
+				DEVELOPMENT_TEAM = 77M6GLW2T3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ProjectLayout/Info.plist;
+				INFOPLIST_FILE = LearnLayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nothing.ProjectLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hi.LearnLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -202,7 +202,7 @@
 			};
 			name = Release;
 		};
-		A349160E2EBD2C34008EF5E5 /* Debug */ = {
+		A36BFDFE2ECA60C000D11A7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,7 +266,7 @@
 			};
 			name = Debug;
 		};
-		A349160F2EBD2C34008EF5E5 /* Release */ = {
+		A36BFDFF2ECA60C000D11A7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -326,25 +326,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A34915F32EBD2C33008EF5E5 /* Build configuration list for PBXProject "ProjectLayout" */ = {
+		A36BFDE32ECA60C000D11A7C /* Build configuration list for PBXProject "LearnLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A349160E2EBD2C34008EF5E5 /* Debug */,
-				A349160F2EBD2C34008EF5E5 /* Release */,
+				A36BFDFE2ECA60C000D11A7C /* Debug */,
+				A36BFDFF2ECA60C000D11A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A349160B2EBD2C34008EF5E5 /* Build configuration list for PBXNativeTarget "ProjectLayout" */ = {
+		A36BFDFB2ECA60C000D11A7C /* Build configuration list for PBXNativeTarget "LearnLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A349160C2EBD2C34008EF5E5 /* Debug */,
-				A349160D2EBD2C34008EF5E5 /* Release */,
+				A36BFDFC2ECA60C000D11A7C /* Debug */,
+				A36BFDFD2ECA60C000D11A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A34915F02EBD2C33008EF5E5 /* Project object */;
+	rootObject = A36BFDE02ECA60C000D11A7C /* Project object */;
 }

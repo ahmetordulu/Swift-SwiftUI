@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ProjectLayout
+//  Layout
 //
-//  Created by Ahmet Rıdvan Ordulu on 11/6/25.
+//  Created by Ahmet Rıdvan Ordulu on 11/15/25.
 //
 
 import UIKit

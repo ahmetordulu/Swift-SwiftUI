@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  ProjectLayout
+//  LearnLayout
 //
-//  Created by Ahmet Rıdvan Ordulu on 11/6/25.
+//  Created by Ahmet Rıdvan Ordulu on 11/16/25.
 //
 
 import UIKit
